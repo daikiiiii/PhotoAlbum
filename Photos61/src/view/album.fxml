@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.TilePane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.AlbumController">
+   <children>
+      <Button fx:id="back" layoutX="521.0" layoutY="32.0" mnemonicParsing="false" onAction="#event" prefHeight="25.0" prefWidth="47.0" text="back" />
+      <Label fx:id="name" layoutX="222.0" layoutY="14.0" text="Album Spring">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <ScrollPane hbarPolicy="NEVER" layoutY="69.0" prefHeight="285.0" prefWidth="600.0">
+         <content>
+            <TilePane fx:id="tilepane" mouseTransparent="true" prefHeight="286.0" prefWidth="599.0" />
+         </content>
+      </ScrollPane>
+      <Button fx:id="add" layoutX="36.0" layoutY="361.0" mnemonicParsing="false" onAction="#event" prefHeight="25.0" prefWidth="49.0" text="add" />
+      <Button fx:id="delete" layoutX="104.0" layoutY="361.0" mnemonicParsing="false" onAction="#event" text="delete" />
+   </children>
+</AnchorPane>

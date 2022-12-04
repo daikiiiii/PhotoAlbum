@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane 
+			maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="190.0" 
+			prefWidth="180.0" style="-fx-background-color: #e8e5e5;" xmlns="http://javafx.com/javafx/15.0.1" 
+			xmlns:fx="http://javafx.com/fxml/1" onMouseClicked="#handle" fx:controller="view.AlbumPhotoController">
+   <children>
+      <ImageView fx:id="imageView" fitHeight="149.0" fitWidth="169.0" focusTraversable="true" layoutX="5.0" layoutY="11.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="6.0" AnchorPane.topAnchor="11.0" />
+      <Label fx:id="caption" alignment="CENTER" layoutY="157.0" prefHeight="33.0" prefWidth="180.0" style="-fx-background-color: #e8e5e5;" text="caption" textAlignment="CENTER" wrapText="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="157.0">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
